@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "octUI",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationBarTitleText": "收银台",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/logistics/logistics",
+			"style": {
+				"navigationBarTitleText": "物流查询",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单管理"
+			}
+
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"disableScroll": true
+			}
+
+		}, {
+			"path": "pages/cards/cards",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
